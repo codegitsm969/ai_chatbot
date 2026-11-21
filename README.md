@@ -2,7 +2,7 @@
 
 A simple, fast AI chatbot built with **FastAPI** and the **Groq API**, featuring real-time word-by-word replies and a clean web interface.
 
-🔗 **Live Demo:** *(Add your Render link here once deployed)*
+🔗 **Live Demo:** *(https://ai-chatbot-by-sm.onrender.com/)*
 
 ---
 
