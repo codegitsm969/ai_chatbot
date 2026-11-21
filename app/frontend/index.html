@@ -72,7 +72,7 @@
     .bot th { background: var(--panel); font-weight: 700; }
 
     form {
-      display: flex; gap: 12px; padding: 16px 28px; background: var(--panel);
+      display: flex; gap: 12px; padding: 14px 28px 6px; background: var(--panel);
       border-top: 1px solid var(--border); width: 100%;
     }
     input {
@@ -87,6 +87,22 @@
     }
     button[type="submit"]:hover { background: #eef2f6; }
     button[type="submit"]:disabled { opacity: 0.5; cursor: not-allowed; }
+
+    footer {
+      text-align: center;
+      padding: 6px 16px 10px;
+      background: var(--panel);
+      font-size: 0.78rem;
+      color: var(--muted);
+    }
+    footer a {
+      color: var(--text);
+      text-decoration: none;
+      font-weight: 600;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
   </style>
 </head>
 <body>
@@ -104,6 +120,10 @@
     <input id="prompt-input" type="text" placeholder="Type a message..." autocomplete="off" required />
     <button id="send-btn" type="submit">Send</button>
   </form>
+
+  <footer>
+    Built by <a href="https://github.com/codegitsm969" target="_blank" rel="noopener noreferrer">Swagat Mishra</a>
+  </footer>
 
   <script>
     const chatBox = document.getElementById("chat-box");
